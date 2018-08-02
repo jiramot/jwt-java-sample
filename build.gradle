@@ -1,0 +1,11 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  compile group: 'com.nimbusds', name: 'nimbus-jose-jwt', version: '5.14'
+}
